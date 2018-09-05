@@ -15,7 +15,7 @@
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="120dp"
             android:fitsSystemWindows="true"
             app:contentScrim="@color/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -23,7 +23,7 @@
             <ImageView
                 android:id="@+id/background"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="match_parent"
                 android:background="@color/colorAccent"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop" />
